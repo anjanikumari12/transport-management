@@ -6,7 +6,7 @@ require("dotenv").config();
 const vehicleRoutes = require("./routes/VehicleRoutes");
 const driverRoutes = require("./routes/DriverRoutes");
 const bookingRoutes = require("./routes/BookingRoutes");
-const authRoutes = require("./routes/authRoutes");
+const authRoutes = require("./routes/AuthRoutes");
 
 const app = express();
 
